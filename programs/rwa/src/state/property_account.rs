@@ -9,4 +9,5 @@ pub struct PropertyAccount{
     pub available_to_claim: u64,
     pub current_period: u64,
     pub bump: u8,
+    pub vault_bump: u8,
 }
